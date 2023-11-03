@@ -1,0 +1,19 @@
+.select {
+    outline: none;
+    background-color: transparent;
+    color: #FFF;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+    padding: 0;
+    margin: 0;
+    width: min-content;
+    cursor: pointer;
+    transition: all 0.5s ease 0s;
+
+    &:hover {
+        opacity: 0.6;
+    }
+}

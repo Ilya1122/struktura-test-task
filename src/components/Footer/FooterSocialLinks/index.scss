@@ -1,0 +1,22 @@
+.icons__list {
+    display: flex;
+    flex-direction: column;
+
+    .footer__text {
+        margin-bottom: 16px;
+    }
+
+    .list__social {
+        display: flex;
+        gap: 0 24px;
+
+        li {
+            cursor: pointer;
+            transition: all 0.5s ease 0s;
+
+            &:hover {
+                opacity: 0.6;
+            }
+        }
+    }
+}

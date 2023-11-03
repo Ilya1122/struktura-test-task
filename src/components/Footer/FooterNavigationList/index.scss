@@ -1,0 +1,19 @@
+.nav__list {
+    display: flex;
+    flex-direction: column;
+    gap: 8px 0;
+
+    .list__title {
+        margin-bottom: 16px;
+        font-weight: 600;
+    }
+
+    .footer__text {
+        cursor: pointer;
+        transition: all 0.5s ease 0s;
+
+        &:hover {
+            opacity: 0.6;
+        }
+    }
+}

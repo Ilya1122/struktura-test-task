@@ -1,0 +1,16 @@
+.payment__container {
+    display: flex;
+    flex-direction: column;
+
+    .payment__body {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 35px;
+        padding-bottom: 64px;
+
+        .wrapper {
+            display: flex;
+            gap: 0 24px;
+        }
+    }
+}

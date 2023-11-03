@@ -1,0 +1,39 @@
+.steps {
+    margin-top: 19px;
+    display: flex;
+    gap: 0 12px;
+    align-items: center;
+
+    .active {
+        color: #FFF;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 23px;
+        background-color: #2F80ED;
+    }
+
+    .steps__line {
+        height: 1px;
+        width: 100%;
+        max-width: 308px;
+        background-color: #ABC7EC;
+    }
+
+    .steps__ellipse {
+        min-width: 24px;
+        width: 24px;
+        height: 24px;
+        border-radius: 50%;
+        border: 1px solid #2F80ED;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        transition: all 0.5s ease 0s;
+
+        &:hover {
+            opacity: 0.6;
+        }
+    }
+}

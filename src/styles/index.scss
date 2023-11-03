@@ -1,0 +1,21 @@
+@import url("reset.scss");
+
+body {
+    background-color: #F8FAFD;
+    font-family: "Poppins", sans-serif;
+    color: #2E3C49;
+    font-weight: 300;
+}
+
+#root {
+    min-height: 100%;
+	display: flex;
+	flex-direction: column;
+	overflow: clip;
+}
+
+[class*="__container"] {
+	max-width: 1140px;
+	margin: 0 auto;
+	padding: 0px 15px;
+}

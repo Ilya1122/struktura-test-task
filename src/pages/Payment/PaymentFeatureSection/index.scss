@@ -1,0 +1,22 @@
+.payment__feature {
+    display: flex;
+    flex-direction: column;
+    width: 262px;
+    align-items: center;
+
+    .title {
+        color: #8A98A9;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin: 30px 0 27px 0;
+        width: 100%;
+        text-align: left;
+    }
+
+    .image {
+        width: 116px;
+        height: 163.165px;
+    }
+}

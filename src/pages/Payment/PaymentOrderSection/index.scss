@@ -1,0 +1,15 @@
+.payment__order {
+    display: flex;
+    flex-direction: column;
+    min-width: 453px;
+    align-items: center;
+    max-width: 453px;
+
+    .order__title {
+        color:  #081D31;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+}

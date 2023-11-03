@@ -1,0 +1,39 @@
+.order__total {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    gap: 16px 0;
+    margin: 25px 0;
+
+    .total__wrapper {
+        display: flex;
+        justify-content: space-between;
+
+        .total__name {
+            color: #37465D;
+            font-size: 13px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: 125%;
+        }
+
+        
+
+        .total__text {
+            color: #081D31;
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 125%;
+        }
+
+        .price {
+            color: #00C4C4;
+            font-weight: 500;
+        }
+
+        .period {
+            font-weight: 400;
+        }
+    }
+}

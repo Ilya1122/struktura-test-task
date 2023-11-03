@@ -1,0 +1,30 @@
+.footer__bottom {
+    width: 100%;
+    border-top: 1px solid #F8FAFD;
+    padding-top: 35px;
+    display: flex;
+    justify-content: space-between;
+
+    .footer__wrapper {
+        display: flex;
+        flex-direction: column;
+
+        .footer__text {
+            text-align: right;
+        }
+    }
+
+    .wrapper__language {
+        display: flex;
+        align-items: center;
+        gap: 0 24px;
+        margin-bottom: 28px;
+    }
+
+    .wrapper__images {
+        display: flex;
+        align-items: center;
+        gap: 0 31px;
+        margin-top: 19px;
+    }
+}

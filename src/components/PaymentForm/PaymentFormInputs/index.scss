@@ -1,0 +1,14 @@
+.payment__inputs {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 16px 0;
+
+    .email {
+        background-image: url("../../../assets/images/mail.svg");
+    }
+
+    .name {
+        background-image: url("../../../assets/images/user.svg");
+    }
+}

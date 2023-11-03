@@ -1,0 +1,14 @@
+.coupon__wrapper {
+    color: #2E3C49;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+    cursor: pointer;
+
+    &:hover {
+        opacity: 0.5;
+    }
+}

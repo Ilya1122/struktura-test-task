@@ -1,0 +1,46 @@
+.order__description__wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-top: 24px;
+    gap: 16px 0;
+
+    .text__automatic {
+        color: #37465D;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-align: center;
+
+        span {
+            color: #2F80ED;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+
+            cursor: pointer;
+
+            &:hover {
+                opacity: 0.5;
+            }
+        }
+    }
+
+    p {
+        color: #37465D;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+
+        a {
+            text-decoration: underline;
+        }
+    }
+
+    .logo__cart {
+        width: 450.417px;
+        height: 30.88px;
+    }
+}

@@ -1,0 +1,13 @@
+.feature__item {
+    display: flex;
+    align-items: center;
+    gap: 0 12px;
+
+    .feature__title {
+        color: #2E3C49;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 120%;
+    }
+}
